@@ -1,6 +1,6 @@
 import {load} from"./comment";
 import './style.css'
-
+const()
 document.querySelector('#app').innerHTML = `
   <div>
    <section>
