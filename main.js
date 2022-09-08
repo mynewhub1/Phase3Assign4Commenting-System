@@ -1,6 +1,5 @@
 import {load} from"./comment";
 import './style.css'
-const()
 document.querySelector('#app').innerHTML = `
   <div>
    <section>
@@ -32,14 +31,14 @@ document.querySelector('#app').innerHTML = `
      <input value="submit" type="submit" id="submit">
      <div id="results-field">
       <comment-com 
-        name="Allen" 
-        email="allen7242@gmail.com" 
-        comment="Mike" 
+        name="" 
+        email="" 
+        comment="" 
      id="comment-component"></comment-com>
      <comment-com 
-       name="Tom" 
-       email="tom@gmail.com" 
-       comment="Jordan" 
+       name="" 
+       email="" 
+       comment="" 
      id="comment-component"></comment-com>
      </div>
     </form>
@@ -52,7 +51,7 @@ document.querySelector('#app').innerHTML = `
         font-weight: bold;
         color: #FFFFda;
         width: 50vw;
-        height: 25vh;
+        height: 35vh;
         justify-content: center;
         align-items:center;
         text-align: center;
@@ -79,8 +78,7 @@ document.querySelector('#app').innerHTML = `
       <div>
       <div id="information">
         <p id="users-comment"></p>
-        // <p id="littleusers">By: <span id="users-email"></span></p>
-        <p id="usrers-email"></p>
+        <p id="littleusers">By: <span id="users-email"></span></p>
       <div>
     </div>
   </template>
@@ -90,15 +88,3 @@ document.querySelector("form").addEventListener("submit", (ev) => {
   ev.preventDefault();
   load();  
 });
-
-
-
-
-
-
-
-
-
-
-// setupCounter(document.querySelector("#counter"));
-// <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>

@@ -78,6 +78,3 @@ export const load = () => {
   results.append(component);
 
 };
-
-
-// setupCounter(document.querySelector("#counter"));
